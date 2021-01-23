@@ -1,0 +1,73 @@
+html { overflow-x: hidden !important; overflow-y: hidden !important; background-color: transparent !important;}
+
+body {background-color: transparent !important;}
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+.bodycam {
+    float: right;
+    position: relative;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+	margin-top: 110px;
+}
+
+.p {
+    top: 500px;
+    position: relative;
+    margin-top: -764px;
+    margin-right: 580px;
+    line-height: 6.5px;
+    color: rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    font-size:14px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: black;
+}
+
+.blackbox {
+    position: relative;
+    width: 350px;
+    height: 105px;
+    margin-left: 1560px;
+    margin-top: 30px;
+    background-color: rgba(116, 125, 140, 0);
+    border-radius: 10px;
+}
+
+.odz {
+    margin-left: 15px;
+    float: right;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: small-caps;
+	margin-top: 250px;
+}
+
+.Blink {
+    animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* .img {
+    margin-top: 610px;
+} */
+
+/* .text {
+    position: relative;
+    font-size: 200%;
+    margin-top: 110px;
+    font-family: 'Graduate', cursive;
+} */
